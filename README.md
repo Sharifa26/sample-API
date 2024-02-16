@@ -16,12 +16,17 @@ This is a RESTful API for User, built using Node.js, Express, and Mysql. The API
 3. Add Your Database and connect your Database with the following variables:
 
      const db = mysql.createConnection({
+   
        host: 'YOUR LOCALHOST',
+   
        user: 'YOUR USER NAME',
+   
        password: 'YOUR PASSWORD',
+   
        database: 'YOUR DATABASE'
+   
       });
 
-4. Start the server:
+5. Start the server:
 
    npm start
